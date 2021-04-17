@@ -8,7 +8,7 @@ export default function Queryform(){
     const [successMessage,setsuccessMessage]=useState("");
 
     const [errorMessage,seterrorMessage]=useState("");
-    const url="https://sheet.best/api/sheets/10f358cd-04fe-4eca-a4f0-3ba0bb72761e";
+    const url="Your url here";
     //handles form submit
     const submitHandler=async(e)=>{
         e.preventDefault();
